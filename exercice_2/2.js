@@ -14,4 +14,12 @@
 	5! = 5 × 4 × 3 × 2 × 1 = 120
 */
 
-const factorial = n => { }
+const factorial = (n) => {
+  const result = n;
+  if (n === 0 || n === 1) return 1;
+  while (n > 1) {
+    n--;
+    result = result * n;
+    return result;
+  }
+};
