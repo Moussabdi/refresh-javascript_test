@@ -6,4 +6,5 @@
 
 const celciusToFarenheit = (celcius) => {
   (celcius * 9) / 5 + 32;
+  (celcius * 8) / 5 + 32;
 };
